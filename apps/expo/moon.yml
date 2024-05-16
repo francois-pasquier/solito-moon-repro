@@ -1,0 +1,6 @@
+language: 'javascript'
+
+tasks:
+  dev:
+    command:  'yarn start'
+

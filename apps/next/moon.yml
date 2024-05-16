@@ -1,0 +1,10 @@
+language: 'javascript'
+
+tasks:
+  dev:
+    command:  'yarn next dev'
+  build:
+    command: 'yarn next build'
+  start:
+    command: 'yarn next start'
+

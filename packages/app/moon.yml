@@ -1,0 +1,20 @@
+language: 'javascript'
+
+tasks:
+  i18n:
+    command: 'yarn lingui extract && yarn lingui compile --typescript'
+  i18n-extract:
+    command:  'yarn lingui extract'
+  i18n-compile:
+    command:  'yarn lingui compile --typescript'
+  test:
+    command:  'yarn jest'
+  prettier:
+    command: 'prettier ./ ./'
+  prettier-fix:
+    command: 'prettier ./ -w'
+  lint:
+    command: 'eslint ./'
+  lint-fix:
+    command: 'eslint --fix'
+
